@@ -7,7 +7,7 @@
 </head>
 <body>
   <div ng-app="" ng-init="myName ='Cole'">
-    <div ng-controller="navMenu" ng-cloak>
+    <div ng-controller="navMenu">
       <md-content class="md-padding">
         <md-nav-bar md-selected-nav-item="slctItem">
           <md-nav-item md-nav-click="goto('index')" name="index">
@@ -20,9 +20,5 @@
       </md-content>
     </div>
   </div>
-  <h1>Home</h1>
-  <script>
-    var app = angular.module('myApp', []);
-    app.controller('')
-  </script>
+  <h1>About</h1>
 </body>
